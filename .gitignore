@@ -1,7 +1,4 @@
 
-# Created by https://www.gitignore.io/api/Python
-# Edit at https://www.gitignore.io/?templates=Python
-
 ### Python ###
 # Byte-compiled / optimized / DLL files
 __pycache__/
@@ -41,7 +38,6 @@ MANIFEST
 # Installer logs
 pip-log.txt
 pip-delete-this-directory.txt
-
 # Unit test / coverage reports
 htmlcov/
 .tox/
@@ -54,10 +50,12 @@ coverage.xml
 *.cover
 .hypothesis/
 .pytest_cache/
-
+.DS_Store
+.ipynb_checkpoints/
 # Translations
 *.mo
 *.pot
+
 
 # Scrapy stuff:
 .scrapy
@@ -103,8 +101,6 @@ celerybeat-schedule
 .mypy_cache/
 .dmypy.json
 dmypy.json
-
 # Pyre type checker
 .pyre/
-
 # End of https://www.gitignore.io/api/Python
